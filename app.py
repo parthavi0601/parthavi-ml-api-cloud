@@ -18,7 +18,7 @@ def predict():
 
     return jsonify({
         "input_text": text,
-        "prediction": prediction
+        "prediction": str(prediction)
     })
 
 if __name__ == "__main__":
